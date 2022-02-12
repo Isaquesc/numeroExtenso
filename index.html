@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+    <title>Numero por Extenso</title>
+</head>
+
+<body>
+    <header>
+        <h1>Números por Extenso</h2>
+    </header>
+
+    <section>
+        <div>
+            <label for="escolhaNumero">Escolha um númenro entre 0 e 999</label>
+            <input type="range" name="escolhaNumero" id="inputEn" min="0" max="999" value="0">
+
+        </div>
+
+        <div>
+            <label for="inputAtual">Número atual:</label>
+            <input type="number" name="inputNatual" id="inputNatual" placeholder="0" disabled>
+        </div>
+
+        <div>
+            <label for="inputExtenso">Número por extenso:</label>
+            <input type="text" name="inputExtenso" id="inputExtenso" placeholder="zero" disabled value="zero">
+        </div>
+    </section>
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
